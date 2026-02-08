@@ -35,7 +35,7 @@ def sell_tickets():
     """
 
     # Initialize total ticket count
-    total_tickets = 20
+    total_tickets = 10123
 
     # Set remaining tickets equal to total tickets
     remaining_tickets = total_tickets
