@@ -47,7 +47,7 @@ def sell_tickets():
     while remaining_tickets > 0:
 
         # Prompt user for number of tickets
-        tickets_requested = int(input("Enter number of tickets to purchase (1–4): "))
+        tickets_requested = int(input("How many tickets would you like to buy today (1–4)? "))
 
         # Validate ticket request
         if tickets_requested < 1 or tickets_requested > 4:
