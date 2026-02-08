@@ -41,7 +41,7 @@ def sell_tickets():
     remaining_tickets = total_tickets
 
     # Accumulator for counting buyers
-    buyers = 0
+    total_buyers_count = 0
 
     # Loop until all tickets are sold
     while remaining_tickets > 0:
@@ -61,13 +61,13 @@ def sell_tickets():
             remaining_tickets -= tickets_requested
 
             # Increment buyer count
-            buyers += 1
+            total_buyers_count += 1
 
             # Display remaining tickets
             print(f"Tickets remaining: {remaining_tickets}")
 
     # Return total buyers after tickets are sold
-    return buyers
+    return total_buyers_count
 
 
 def display_results(total_buyers):
